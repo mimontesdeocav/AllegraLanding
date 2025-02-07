@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Espíritu Andaluz | Allegra Travels</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="/"><img src="images/Logo.png" alt="Allegra Travels"></a>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="active">HOME</a>
+                <a href="#">NUESTROS VIAJES</a>
+                <a href="#">EL EQUIPO</a>
+                <a href="#">INSTAGRAM</a>
+                <a href="#" class="contact-btn">CONTACTO</a>
+            </div>
+            <div class="language-selector">
+                <img src="images/es-flag.png" alt="Español" class="flag-icon">
+                <span>Spanish</span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/ImagenPrincipal.jpeg');">
+        <div class="hero-content">
+            <h1>EL ESPÍRITU ANDALUZ</h1>
+            <h2>LO MEJOR DE ANDALUCÍA - 7 DÍAS</h2>
+            <p class="destinations">Córdoba, Sevilla, Pueblos Blancos, Jerez de la Frontera, Cádiz, Costa Andaluza, Málaga y Granada</p>
+            <button onclick="window.print()" class="print-button">
+                <i class="fas fa-print"></i>
+                Imprimir
+            </button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="trip-info">
+                <div class="trip-content">
+                    <div class="trip-description">
+                        <h2 class="section-title">ACERCA DEL VIAJE</h2>
+                        <p>Nuestro viaje por Andalucía es una invitación a descubrir los tesoros más preciados de esta tierra única. Durante 7 días, recorreremos las ciudades más emblemáticas de la región, cada una con su propia personalidad y encanto.</p>
+                        <p>Hemos diseñado un itinerario que combina historia, cultura, gastronomía y tradiciones, permitiéndote vivir una experiencia auténtica y memorable.</p>
+                        
+                        <div class="trip-details">
+                            <div class="detail">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>INICIO: Sevilla</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-flag-checkered"></i>
+                                <span>FINAL: Granada</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-tag"></i>
+                                <span>Código: ESPAÑA 4</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trip-image">
+                        <img src="images/andalucia.jpeg" alt="Viaje por Andalucía">
+                    </div>
+                </div>
+            </div>
+
+            <section class="andalucia-section">
+                <div class="andalucia-content">
+                    <div class="andalucia-text">
+                        <h2 class="section-title">ANDALUCÍA</h2>
+                        <div class="trip-description">
+                            <p>Cuando pensamos en Andalucía, pensamos en España: corridas de toros, pueblos blancos, flamenco, caballos, arte y arquitectura morisca, etc.</p>
+                            
+                            <p>Andalucía tiene un corazón cristiano, pero también tiene espíritu árabe, judío y gitano. Sus ciudades son delicados ejemplos de una mezcla cultural única en el mundo. Pero es en sus pueblos y sus calles, en su gente, sus canciones, sus tabernas y sus platos, en donde realmente podemos ver la carismática alma andaluza.</p>
+                        </div>
+                        <div class="andalucia-features">
+                            <div class="feature">
+                                <h3>Patrimonio Cultural</h3>
+                                <p>Una fusión única de influencias cristianas, árabes, judías y gitanas que han creado un legado arquitectónico y artístico incomparable.</p>
+                            </div>
+                            
+                            <div class="feature">
+                                <h3>Arte y Tradición</h3>
+                                <p>Tierra del flamenco, los caballos andaluces y el arte morisco, donde cada ciudad cuenta una historia milenaria a través de sus monumentos.</p>
+                            </div>
+                            
+                            <div class="feature">
+                                <h3>Espíritu Andaluz</h3>
+                                <p>Descubre el auténtico carácter andaluz en sus pueblos blancos, sus tabernas tradicionales y su rica gastronomía mediterránea.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="andalucia-image">
+                        <img src="images/acercaviaje.jpeg" alt="El espíritu de Andalucía">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- Itinerary Summary -->
+    <section id="itinerary-summary" class="section gray-bg">
+        <div class="container">
+            <h2 class="section-title">ITINERARIO</h2>
+            <div class="itinerary-grid">
+                <a href="#day-1" class="day-card">
+                    <h3>DÍA 1</h3>
+                    <p>SEVILLA</p>
+                </a>
+                <a href="#day-2" class="day-card">
+                    <h3>DÍA 2</h3>
+                    <p>CÓRDOBA</p>
+                </a>
+                <a href="#day-3" class="day-card">
+                    <h3>DÍA 3</h3>
+                    <p>PUEBLOS BLANCOS DE ANDALUCÍA</p>
+                </a>
+                <a href="#day-4" class="day-card">
+                    <h3>DÍA 4</h3>
+                    <p>JEREZ DE LA FRONTERA Y CÁDIZ</p>
+                    <div class="stay-row">
+                        <div class="stay-info premium">
+                            <i class="fas fa-crown"></i> Premium
+                            <span class="stay-location">Noche en CÁDIZ</span>
+                        </div>
+                        <div class="stay-info basic">
+                            <i class="fas fa-star"></i> Basic
+                            <span class="stay-location">Noche en SEVILLA</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#day-5" class="day-card">
+                    <h3>DÍA 5</h3>
+                    <p>CÁDIZ - MÁLAGA</p>
+                </a>
+                <a href="#day-6" class="day-card">
+                    <h3>DÍA 6</h3>
+                    <p>MÁLAGA - GRANADA</p>
+                </a>
+                <a href="#day-7" class="day-card">
+                    <h3>DÍA 7</h3>
+                    <p>GRANADA - SIGUIENTE DESTINO</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Itinerary -->
+    <section id="detailed-itinerary" class="section">
+        <div class="container">
+            <h2 class="section-title">CATEGORÍAS DE VIAJE</h2>
+            <div class="categories-intro">
+                <p class="text">Ofrecemos dos categorías de viaje para adaptarnos a tus preferencias:</p>
+                
+                <div class="category-info premium">
+                    <div class="category-header">
+                        <h3><i class="fas fa-crown"></i> PREMIUM</h3>
+                        <a href="#premium-prices" class="price-link">Precio</a>
+                    </div>
+                    <p class="text">Diseñado para viajeros que buscan la máxima comodidad y flexibilidad:</p>
+                    <ul>
+                        <li>Viaje 100% privado con guías exclusivos</li>
+                        <li>Hoteles 4 estrellas en ubicaciones privilegiadas</li>
+                        <li>Traslados privados entre todas las ciudades</li>
+                        <li>Visitas a todos los destinos con tiempo para explorar</li>
+                    </ul>
+                </div>
+                
+                <div class="category-info basic">
+                    <div class="category-header">
+                        <h3><i class="fas fa-star"></i> BASIC</h3>
+                        <a href="#basic-prices" class="price-link">Precio</a>
+                    </div>
+                    <p class="text">Perfecto para viajeros que buscan optimizar su presupuesto:</p>
+                    <ul>
+                        <li>Base en Sevilla los primeros 4 días</li>
+                        <li>Excursiones en grupo reducido a los destinos</li>
+                        <li>Hoteles 3 estrellas bien ubicados</li>
+                        <li>Combinación de traslados privados y transporte público</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="customize-note">
+                <p class="text">Sin embargo, si quieres hacerle algunos cambios, escríbenos</p>
+                <a href="https://www.allegratravels.com/contacto/" class="contact-link" target="_blank">Contactar <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <h2 class="section-title">ITINERARIO DETALLADO</h2>
+            <div class="day-details">
+                <!-- Day 1 -->
+                <div id="day-1" class="day">
+                    <div class="day-title">
+                        <span class="day-number">01</span>
+                        <h3>SEVILLA</h3>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-image">
+                            <img src="images/sevilla.jpeg" alt="Sevilla">
+                        </div>
+                        <div class="day-info">
+                            <div class="stay-box">
+                                <div class="stay-text">Noche en SEVILLA</div>
+                            </div>
+                            <p class="text">Llegada a Sevilla, alojamiento y visita guiada a la ciudad.</p>
+                            
+                            <div class="includes">
+                                <h4 class="text">INCLUYE – Viajeros Premium:</h4>
+                                <ul>
+                                    <li>Traslado al hotel</li>
+                                    <li>Alojamiento 3 noches</li>
+                                    <li>Visita guiada de medio día por Sevilla. Privada y caminando. Incluye recogida en el hotel, visita al Alcázar y paseo en carroza</li>
+                                </ul>
+                                
+                                <h4 class="text">INCLUYE – Viajeros Basic:</h4>
+                                <ul>
+                                    <li>Alojamiento 4 noches</li>
+                                    <li>Tour de 2 horas por Sevilla – privado y caminando</li>
+                                    <li>Entradas al Alcázar de Sevilla</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="destination-info">
+                                <p class="text">A pesar de ser moderna y pujante, la capital de Andalucía ha sabido mantener su carácter de ciudad pequeña y de gente amable y jocosa. Tres de sus monumentos más emblemáticos son Patrimonio de la Humanidad: La catedral; el Alcázar Real y el Archivo de Indias. Añadámosle sus tabernas, su gastronomía, sus fiestas y la gracia y hospitalidad de su gente para enamorarnos de una ciudad llena de colorido, dramatismo, luz, música y alegría.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Day 2 -->
+                <div id="day-2" class="day">
+                    <div class="day-title">
+                        <span class="day-number">02</span>
+                        <h3>CÓRDOBA</h3>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-image">
+                            <img src="images/cordoba.jpeg" alt="Córdoba">
+                        </div>
+                        <div class="day-info">
+                            <div class="stay-box">
+                                <div class="stay-text">Noche en SEVILLA</div>
+                            </div>
+                            <p class="text">Excursión a Córdoba y visita a la Mezquita.</p>
+                            
+                            <div class="includes">
+                                <h4 class="text">INCLUYE – Viajeros Premium:</h4>
+                                <ul>
+                                    <li>Traslado Sevilla- Córdoba – Sevilla en vehículo privado</li>
+                                    <li>Visita guiada por Córdoba- privada y caminando</li>
+                                    <li>Entradas a la Mezquita</li>
+                                </ul>
+                                
+                                <h4 class="text">INCLUYE – Viajeros Basic:</h4>
+                                <ul>
+                                    <li>Excursión a Córdoba – en grupo</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="destination-info">
+                                <p class="text">En su momento de máximo esplendor, Córdoba fue el epicentro del más poderoso reino del mundo islámico y la ciudad más avanzada y tolerante de Occidente. Fue una gran metrópoli en la que convivían sus tres culturas: la cristiana, la musulmana y la judía. Su Mezquita es una verdadera joya de la arquitectura y se ha convertido en el símbolo de la ciudad; es Patrimonio de la Humanidad y uno de los edificios más importantes de España y del mundo musulmán. Pero Córdoba es mucho más que la Mezquita; también es su casco histórico y la Judería, los patios inundados de flores, las tabernas, su puente romano, el Alcázar de los Reyes Cristianos, entre otros.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 3 -->
+                <div id="day-3" class="day">
+                    <div class="day-title">
+                        <span class="day-number">03</span>
+                        <h3>PUEBLOS BLANCOS DE ANDALUCÍA</h3>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-image">
+                            <img src="images/pueblosblancosdeandalucia.jpeg" alt="Pueblos Blancos">
+                        </div>
+                        <div class="day-info">
+                            <div class="stay-box">
+                                <div class="stay-text">Noche en SEVILLA</div>
+                            </div>
+                            <p class="text">Excursión desde Sevilla a los Pueblos Blancos de Andalucía.</p>
+                            
+                            <div class="includes">
+                                <h4 class="text">INCLUYE – Viajeros Premium:</h4>
+                                <ul>
+                                    <li>Recorrido en vehículo privado por los Pueblos Blancos de Andalucía: Ronda y Setenil de las Bodegas</li>
+                                </ul>
+                                
+                                <h4 class="text">INCLUYE – Viajeros Basic:</h4>
+                                <ul>
+                                    <li>Excursión a los pueblos blancos y Ronda – en grupo</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="destination-info">
+                                <p class="text">Hay muchos pueblos blancos en España, pero sin duda, los más característicos se encuentran en Andalucía. Y es que los caminos del interior andaluz están repletos de estos pequeños caseríos que parecen salpicar cada montaña y cada valle. Estos recorridos son idóneos para adentrarse en Andalucía y empaparse de sus costumbres. Dependiendo de nuestro ritmo, podremos visitar pueblos tales como Setenil de las Bodegas, Sáhara de la Sierra, Arcos de la Frontera o Ronda, entre muchos otros.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 4 -->
+                <div id="day-4" class="day">
+                    <div class="day-title">
+                        <span class="day-number">04</span>
+                        <h3>JEREZ DE LA FRONTERA Y CÁDIZ</h3>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-image">
+                            <img src="images/jerez.jpeg" alt="Jerez y Cádiz">
+                        </div>
+                        <div class="day-info">
+                            <div class="premium-info">
+                                <h4 class="category-label"><i class="fas fa-crown"></i> Viajeros Premium:</h4>
+                                <div class="stay-text">Noche en CÁDIZ</div>
+                                <p class="text">Traslado por carretera a Jerez de la Frontera. Posteriormente, traslado a Cádiz, alojamiento y visita a la ciudad</p>
+                                
+                                <div class="includes">
+                                    <ul>
+                                        <li>Traslado Sevilla - Jerez - Cádiz</li>
+                                        <li>Visita guiada a Jerez</li>
+                                        <li>Visita a bodega con cata de vinos</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="basic-info">
+                                <h4 class="category-label"><i class="fas fa-star"></i> Viajeros Basic:</h4>
+                                <div class="stay-text">Noche en SEVILLA</div>
+                                <p class="text">Excursión desde Sevilla a Jerez de la Frontera y Cádiz</p>
+                                
+                                <div class="includes">
+                                    <ul>
+                                        <li>Excursión en grupo a Jerez y Cádiz</li>
+                                        <li>Visita a bodega con cata de vinos</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="destination-info">
+                                <h4 class="text">JEREZ DE LA FRONTERA</h4>
+                                <p class="text">Entre Sevilla y Cádiz se encuentra Jerez de la Frontera, famosa por sus vinos dulces y por ser la sede de la Real Escuela del Arte Ecuestre, hogar de los caballos andaluces.</p>
+                                
+                                <h4 class="text">CÁDIZ</h4>
+                                <p class="text">Cádiz, conocida popularmente como la "tacita de plata", es una de las ciudades más antiguas de Europa; tiene una coqueta semejanza a las ciudades coloniales en América Latina como Cartagena de Indias o La Habana, y cuenta además con el paseo marítimo más romántico de Andalucía, amplias playas y un increíble patrimonio histórico-artístico.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 5 -->
+                <div id="day-5" class="day">
+                    <div class="day-title">
+                        <span class="day-number">05</span>
+                        <h3>CÁDIZ - MÁLAGA</h3>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-image">
+                            <img src="images/cadizmalaga.jpeg" alt="Cádiz a Málaga">
+                        </div>
+                        <div class="day-info">
+                            <div class="stay-box">
+                                <div class="stay-text">Noche en MÁLAGA</div>
+                            </div>
+                            <p class="text">Traslado a Málaga. Llegada, alojamiento y recorrido por la ciudad</p>
+                            
+                            <div class="includes">
+                                <h4 class="text">INCLUYE – Viajeros Premium:</h4>
+                                <ul>
+                                    <li>Traslado Cádiz – Málaga en vehículo privado con varias paradas en la Costa Andaluza</li>
+                                    <li>Alojamiento 1 noche</li>
+                                    <li>Tour privado por Málaga en tuk tuk</li>
+                                </ul>
+                                
+                                <h4 class="text">INCLUYE – Viajeros Basic:</h4>
+                                <ul>
+                                    <li>Tren Sevilla – Málaga</li>
+                                    <li>Alojamiento 1 noche</li>
+                                    <li>Tour por Málaga- en grupo</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="destination-info">
+                                <h4 class="text">COSTA ANDALUZA – DESDE CÁDIZ A MÁLAGA</h4>
+                                <p class="text">Desde Cádiz a Málaga, la Costa Andaluza nos muestra las diversas caras de este peculiar territorio: desde interminables y desoladas playas de arena blanca como las de Boloña y Zahara de los Atunes, hasta incontables puertos deportivos, clubs náuticos y campos de golf alrededor de Marbella y Málaga. En medio: pequeños pueblos blancos, el inmenso Peñón de Gibraltar, el Faro de Trafalgar y mucho más.</p>
+                                <p class="highlights">Paradas aconsejadas: Vejer de la Frontera; Cabo de Trafalgar – caminata hasta el faro; almuerzo en el Restaurante Hotel Antonio, Zahara de los Atunes; Calle de la Ribera – Puerto de yates en Puerto Banús, Marbella, entre otras.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 6 -->
+                <div id="day-6" class="day">
+                    <div class="day-title">
+                        <span class="day-number">06</span>
+                        <h3>MÁLAGA - GRANADA</h3>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-image">
+                            <img src="images/malagagranada.jpeg" alt="Málaga a Granada">
+                        </div>
+                        <div class="day-info">
+                            <div class="stay-box">
+                                <div class="stay-text">Noche en GRANADA</div>
+                            </div>
+                            <p class="text">En la mañana, traslado a Granada. En la tarde, visita guiada a La Alhambra.</p>
+                            
+                            <div class="includes">
+                                <h4 class="text">INCLUYE – Viajeros Premium:</h4>
+                                <ul>
+                                    <li>Traslado Málaga- Granada en vehículo privado</li>
+                                    <li>Alojamiento 1 noche</li>
+                                    <li>Visita guiada a La Alhambra- privada</li>
+                                    <li>Entradas a La Alhambra</li>
+                                </ul>
+                                
+                                <h4 class="text">INCLUYE – Viajeros Basic:</h4>
+                                <ul>
+                                    <li>Traslado Málaga- Granada en vehículo privado</li>
+                                    <li>Alojamiento 1 noche</li>
+                                    <li>Visita guiada por La Alhambra- en grupo</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="destination-info">
+                                <p class="text">Granada fue el último bastión de los reinos musulmanes en España. Hoy, parece que todo en la ciudad girara alrededor de La Alhambra, el palacio – fortaleza que una vez alojó a los más sublimes príncipes del Reino de Granada. La Alhambra es el símbolo indiscutible de la ciudad, el monumento más visitado de España y la obra cumbre del arte musulmán en Europa por lo cual fue declarada Patrimonio de la Humanidad por la UNESCO. Más allá de los muros de La Alhambra, la antigua capital musulmana nos invita a recorrer sus barrios medievales y su barrio gitano, desde donde podremos apreciar algunas de las vistas más famosas de toda Andalucía.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 7 -->
+                <div id="day-7" class="day">
+                    <div class="day-title">
+                        <span class="day-number">07</span>
+                        <h3>GRANADA - SIGUIENTE DESTINO</h3>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-image">
+                            <img src="images/granada.jpeg" alt="Granada">
+                        </div>
+                        <div class="day-info">
+                            <p class="text">A la hora acordada, traslado al aeropuerto o a la estación de trenes (opcional – no incluido) para continuar nuestro viaje al siguiente destino.</p>
+                            <p class="end-note">*** Fin de los servicios***</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section gray-bg">
+        <div class="container">
+            <h2 class="section-title">PRECIOS Y CONDICIONES</h2>
+            
+            <div class="pricing-grid">
+                <!-- Premium Category -->
+                <div id="premium-prices" class="pricing-card premium">
+                    <div class="pricing-header">
+                        <i class="fas fa-crown"></i>
+                        <h3>Viajeros PREMIUM</h3>
+                        <p class="note">* Precios aproximados</p>
+                    </div>
+                    
+                    <div class="price-options">
+                        <div class="price-card">
+                            <div class="travelers-count">2</div>
+                            <div class="travelers-label">Viajeros</div>
+                            <div class="price-amount">3.100 €</div>
+                            <div class="price-per">por persona</div>
+                        </div>
+                        
+                        <div class="price-card">
+                            <div class="travelers-count">4</div>
+                            <div class="travelers-label">Viajeros</div>
+                            <div class="price-amount">2.190 €</div>
+                            <div class="price-per">por persona</div>
+                        </div>
+                        
+                        <div class="price-card">
+                            <div class="travelers-count">6</div>
+                            <div class="travelers-label">Viajeros</div>
+                            <div class="price-amount">1.960 €</div>
+                            <div class="price-per">por persona</div>
+                        </div>
+                        
+                        <div class="price-card">
+                            <div class="travelers-count">8</div>
+                            <div class="travelers-label">Viajeros</div>
+                            <div class="price-amount">1.830 €</div>
+                            <div class="price-per">por persona</div>
+                        </div>
+                        
+                        <div class="price-card">
+                            <div class="travelers-count">10+</div>
+                            <div class="travelers-label">Viajeros o más</div>
+                            <div class="price-amount">1.870 €</div>
+                            <div class="price-per">por persona</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Basic Category -->
+                <div id="basic-prices" class="pricing-card basic">
+                    <div class="pricing-header">
+                        <i class="fas fa-star"></i>
+                        <h3>Viajeros BASIC</h3>
+                        <p class="note">* Precios aproximados</p>
+                    </div>
+                    
+                    <div class="price-options">
+                        <div class="price-card">
+                            <div class="travelers-count">2</div>
+                            <div class="travelers-label">Viajeros</div>
+                            <div class="price-amount">1.880 €</div>
+                            <div class="price-per">por persona</div>
+                        </div>
+                        
+                        <div class="price-card">
+                            <div class="travelers-count">4</div>
+                            <div class="travelers-label">Viajeros</div>
+                            <div class="price-amount">1.610 €</div>
+                            <div class="price-per">por persona</div>
+                        </div>
+                        
+                        <div class="price-card">
+                            <div class="travelers-count">6</div>
+                            <div class="travelers-label">Viajeros</div>
+                            <div class="price-amount">1.580 €</div>
+                            <div class="price-per">por persona</div>
+                        </div>
+                        
+                        <div class="price-card">
+                            <div class="travelers-count">8</div>
+                            <div class="travelers-label">Viajeros</div>
+                            <div class="price-amount">1.530 €</div>
+                            <div class="price-per">por persona</div>
+                        </div>
+                        
+                        <div class="price-card">
+                            <div class="travelers-count">10+</div>
+                            <div class="travelers-label">Viajeros o más</div>
+                            <div class="price-amount">1.550 €</div>
+                            <div class="price-per">por persona</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Includes & Excludes -->
+    <section id="conditions" class="section">
+        <div class="container">
+            <div class="includes-excludes">
+                <div class="includes">
+                    <h3>INCLUYE</h3>
+                    <ul>
+                        <li>Diseño del viaje y reservas</li>
+                        <li>Alojamiento con desayuno en hoteles boutique de 3 o 4 estrellas</li>
+                        <li>Actividades y tours privados o en grupo</li>
+                        <li>Guías en español</li>
+                        <li>Transporte en tren o vuelos dentro de Europa según el itinerario</li>
+                        <li>Asesoría personalizada</li>
+                    </ul>
+                </div>
+                
+                <div class="excludes">
+                    <h3>NO INCLUYE</h3>
+                    <ul>
+                        <li>Gastos no especificados</li>
+                        <li>Tasas de turismo en cada ciudad</li>
+                        <li>Propinas</li>
+                        <li>Vuelos desde y hacia Europa</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">¿TIENES PREGUNTAS?</h2>
+            <p class="contact-text">¿Te gusta este viaje pero quieres hacerle algunos cambios?</p>
+            <a href="https://www.allegratravels.com/contacto/" class="cta-button" target="_blank">¡ESCRÍBENOS!</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">
+                    <img src="images/Logo.png" alt="Allegra Travels">
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
